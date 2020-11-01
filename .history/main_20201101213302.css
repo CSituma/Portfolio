@@ -560,6 +560,7 @@ border-radius: 50%;
 .card-img .iconify{
   height: 150px;
   width: 150px;
+
 }
 .title-heading .iconify{
   color: goldenrod;
@@ -954,18 +955,12 @@ footer a {
   .main-message h3 {
     font-size: 3rem;
   }
-
-  .card-img .iconify{
-    height: 90px;
-    width: 90px;
-    margin:2rem;
-  }
   .about .container {
   margin: 0;
+  padding:5em;
   }
   .about-text-box{
     margin:1rem;
-    padding:0;
   }
   p {
     font-size: 1.3rem;

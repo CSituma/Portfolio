@@ -69,7 +69,7 @@ header {
 .container {
   width: 100%;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 0 1.5rem;
 }
 
 .nav-brand {
@@ -308,7 +308,7 @@ nav {
 
 .about {
   max-width: 100%;
-  margin: 5em;
+  margin: 5em 2em;
 }
 
 .about .container {
@@ -560,6 +560,7 @@ border-radius: 50%;
 .card-img .iconify{
   height: 150px;
   width: 150px;
+
 }
 .title-heading .iconify{
   color: goldenrod;
@@ -954,18 +955,8 @@ footer a {
   .main-message h3 {
     font-size: 3rem;
   }
-
-  .card-img .iconify{
-    height: 90px;
-    width: 90px;
-    margin:2rem;
-  }
   .about .container {
-  margin: 0;
-  }
-  .about-text-box{
-    margin:1rem;
-    padding:0;
+    flex-direction: column;
   }
   p {
     font-size: 1.3rem;
