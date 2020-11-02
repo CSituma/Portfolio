@@ -331,7 +331,7 @@ nav {
 
 .about-text-box {
   margin-left:10em;
-  max-width: 100%;
+  width: 60%;
 }
 
 .about-text-box h2 {
@@ -780,7 +780,7 @@ background-color:rgba(218, 165, 32, 0.767);
   align-items: center;
 }
 .social h2{
-  box-shadow: -10px 10px 10px rgb(212, 144, 144);
+  box-shadow: -10px 10px 10px black;
 }
 .contact-text {
 width: 100%;
@@ -806,6 +806,7 @@ align-content: center;
 justify-content: center;
 width: 100%;
 display: flex;
+justify-content: space-between;
 margin:0;
 }
 
@@ -830,9 +831,7 @@ padding: 6em;
 height:100%;
 width: 100%;
 }
-.social{
-  width:30%;
-}
+
 #LastName,
 #FirstName,select,
 #Mail,#date,
@@ -966,7 +965,6 @@ footer a {
     margin:2rem;
   }
   .about .container {
-
   margin: 0;
   }
   .about-text-box{
@@ -982,10 +980,6 @@ footer a {
 
   .services-tiers {
     gap: 0;
-  }
-
-  .services .container{
-    max-width: 100%;
   }
   .project-item {
     flex-direction: column;
@@ -1026,7 +1020,6 @@ footer a {
 
   .main-message p {
     font-size: 1.3rem;
-    line-height: 4rem;
   }
   .btn, .btn2 {
     border-radius: 0.9rem;

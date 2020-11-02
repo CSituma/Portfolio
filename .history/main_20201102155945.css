@@ -331,7 +331,7 @@ nav {
 
 .about-text-box {
   margin-left:10em;
-  max-width: 100%;
+  width: 60%;
 }
 
 .about-text-box h2 {
@@ -966,7 +966,6 @@ footer a {
     margin:2rem;
   }
   .about .container {
-
   margin: 0;
   }
   .about-text-box{
