@@ -929,7 +929,7 @@ visibility: hidden;
 
 footer {
   width: 100%;
-  margin: 0 auto;
+  margin: 0;
   padding: 2.5rem;
   color: #8a8a8a;
   background-color: black;
@@ -968,6 +968,7 @@ footer a {
     margin:2rem;
   }
   .about .container {
+
   margin: 0;
   }
   .about-text-box{

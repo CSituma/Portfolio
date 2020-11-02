@@ -780,9 +780,8 @@ background-color:rgba(218, 165, 32, 0.767);
   align-items: center;
 }
 .social h2{
-  box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.664);
- width:50px;
-
+  box-shadow: -10px 10px 10px black;
+  border-radius: 40em;
 }
 .contact-text {
 width: 100%;
@@ -929,10 +928,10 @@ visibility: hidden;
 
 footer {
   width: 100%;
-  margin: 0 auto;
+  max-width: 70rem;
+  margin: auto;
   padding: 2.5rem;
   color: #8a8a8a;
-  background-color: black;
   text-align: center;
   font-size: 1.2rem;
   display: flex;
@@ -968,6 +967,7 @@ footer a {
     margin:2rem;
   }
   .about .container {
+
   margin: 0;
   }
   .about-text-box{

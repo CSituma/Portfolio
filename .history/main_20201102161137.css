@@ -929,7 +929,8 @@ visibility: hidden;
 
 footer {
   width: 100%;
-  margin: 0 auto;
+  max-width: 70rem;
+  margin: auto;
   padding: 2.5rem;
   color: #8a8a8a;
   background-color: black;
@@ -968,6 +969,7 @@ footer a {
     margin:2rem;
   }
   .about .container {
+
   margin: 0;
   }
   .about-text-box{
