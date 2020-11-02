@@ -315,10 +315,9 @@ nav {
 }
 
 .about .container {
-  margin-left: 10rem;
+  margin-left: 20rem;
   align-items: center;
-  max-width:100% ;
-  margin-bottom: 10rem;
+ max-width:100% ;
 }
 
 .about-img img {

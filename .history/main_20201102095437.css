@@ -315,10 +315,9 @@ nav {
 }
 
 .about .container {
-  margin-left: 10rem;
+  margin: 2rem;
   align-items: center;
-  max-width:100% ;
-  margin-bottom: 10rem;
+max-width:100% ;
 }
 
 .about-img img {
@@ -341,6 +340,7 @@ nav {
 
 .about-text-box p {
   max-width:100% ;
+  width: 500px;
   font-family: "Poppins", sans-serif;
   font-size: 1.4rem;
   padding: 0;
