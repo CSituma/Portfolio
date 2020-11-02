@@ -990,7 +990,11 @@ footer a {
     margin: 0;
   }
 
-
+  .services-tiers {
+    gap: 0;
+    align-self: center;
+   max-width: 100%;
+  }
 
   .project-item {
     flex-direction: column;
@@ -1030,17 +1034,7 @@ footer a {
   .main-message h3 {
     font-size: 2rem;
   }
-  .tier-item{
-  flex-direction: column;
-  margin: 1rem;
-  justify-content: space-between;
-  position: relative;
-  box-shadow:-10px 10px 15px black;
-  max-width:400px;
-  min-width:30px;
-  margin: auto;
-  box-sizing:border-box;
-  padding: 40px;}
+
   .main-message p {
     font-size: 1.3rem;
     line-height: 4rem;
