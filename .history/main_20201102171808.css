@@ -1061,8 +1061,9 @@ footer a {
     font-size: 1.3rem;
   }
 
-  .Mail-home{width:85%;}
-  .social{width:15%;}
+  .contact-wrapper {
+    flex-direction: column;
+  }
   
   footer,
   footer p {

@@ -301,7 +301,7 @@ nav {
 .scroll-down i {
   color: #fafafa;
   transition: color 650ms;
-  margin-top: 8rem;
+  margin-top: 4rem;
   font-size: 3.5rem;
 }
 
@@ -917,7 +917,7 @@ text-align: center;
 color: black;
 position: fixed;
 left:0;
-bottom:0px;
+top:30px;
 animation: bounce 2s infinite;
 height: 50px;
 width: 50px;
@@ -1061,9 +1061,10 @@ footer a {
     font-size: 1.3rem;
   }
 
-  .Mail-home{width:85%;}
-  .social{width:15%;}
-  
+  .contact .container {
+    flex-direction: column;
+  }
+
   footer,
   footer p {
     font-size: 1.2rem;

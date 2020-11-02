@@ -301,7 +301,7 @@ nav {
 .scroll-down i {
   color: #fafafa;
   transition: color 650ms;
-  margin-top: 8rem;
+  margin-top: 4rem;
   font-size: 3.5rem;
 }
 
@@ -330,7 +330,7 @@ nav {
   height: 12rem;
   width: auto;
   border-radius: 50%;
-  margin:3rem;
+  margin-top:5rem;
   box-shadow:  -5px 5px 4px black;
 }
 
@@ -402,7 +402,7 @@ width:30%;}
 
 .service-tiers {
   display: flex;
-  flex-wrap:nowrap;
+  flex-wrap:wrap;
  
 }
 
@@ -411,9 +411,9 @@ width:30%;}
   height: 40rem;
   width:60rem;
   padding: 4rem;
-  margin: 1rem;
-  justify-content: space-between;
   position: relative;
+  display: flex;
+  justify-content: center;
   box-shadow:-10px 10px 15px black;
 }
 
@@ -915,9 +915,6 @@ opacity: 100%;
 font-size: 2rem;
 text-align: center;
 color: black;
-position: fixed;
-left:0;
-bottom:0px;
 animation: bounce 2s infinite;
 height: 50px;
 width: 50px;
@@ -1061,9 +1058,10 @@ footer a {
     font-size: 1.3rem;
   }
 
-  .Mail-home{width:85%;}
-  .social{width:15%;}
-  
+  .contact .container {
+    flex-direction: column;
+  }
+
   footer,
   footer p {
     font-size: 1.2rem;
