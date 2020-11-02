@@ -314,6 +314,7 @@ nav {
 
 .about .container {
   margin: 2rem;
+  align-content: space-between;
   align-items: center;
 
 }
@@ -327,7 +328,7 @@ nav {
 }
 
 .about-text-box {
-  margin-left:10em;
+  margin: 4rem;
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: 0;

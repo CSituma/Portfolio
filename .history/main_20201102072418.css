@@ -327,7 +327,7 @@ nav {
 }
 
 .about-text-box {
-  margin-left:10em;
+  margin-left: 5em;
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: 0;

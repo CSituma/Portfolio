@@ -308,12 +308,12 @@ nav {
 
 .about {
   max-width: 100%;
-  text-align: center;
-  margin:5em;
+  margin: 5em;
 }
 
 .about .container {
-  margin: 2rem;
+  margin: 5rem;
+  align-content: space-between;
   align-items: center;
 
 }
@@ -327,7 +327,7 @@ nav {
 }
 
 .about-text-box {
-  margin-left:10em;
+  margin: 4rem;
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: 0;
