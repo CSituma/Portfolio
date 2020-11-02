@@ -1022,13 +1022,14 @@ footer a {
   }
   .service-tiers{
     flex-direction: column;
-    margin: 0;
+    max-width: 100%;
+    width:90rem;
   }
   .tier-item
-  {width:90rem;
+  {width: 100%;
   max-width: 100%;
   text-align: start;
-  margin:4rem 0;}
+  margin:0;}
   .title-heading h2 {
     margin-bottom: 2rem;
   }

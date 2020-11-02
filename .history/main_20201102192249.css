@@ -933,7 +933,14 @@ footer a {
 } }
 @media (max-width: 750px) {
 
-
+.service-tiers{
+    flex-direction: column;
+  }
+  .tier-item
+  {width: 100%;
+    max-width: 100%;
+  text-align: start;
+  margin:4rem 0;}
   .main-message h3 {
     font-size: 3rem;
   }
@@ -970,9 +977,6 @@ footer a {
 }
 
 @media (max-width: 665px) {
-
-
-
 
   .about .container { 
     max-width: 100%;
@@ -1020,15 +1024,7 @@ footer a {
   .about-text-box p {
     margin: 0 0 2.45rem;
   }
-  .service-tiers{
-    flex-direction: column;
-    margin: 0;
-  }
-  .tier-item
-  {width:90rem;
-  max-width: 100%;
-  text-align: start;
-  margin:4rem 0;}
+
   .title-heading h2 {
     margin-bottom: 2rem;
   }
