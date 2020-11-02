@@ -516,7 +516,11 @@ width:30%;}
 }}
 
 .card-blog .card-category-box {
+  position: absolute;
   text-align: center;
+  top: -40px;
+  left: 15px;
+  right: 15px;
   line-height: 25px;
   overflow: hidden;
 }
@@ -536,7 +540,7 @@ width:30%;}
   text-transform: uppercase;
   font-size: 1rem;
   letter-spacing: .1px;
-  margin-bottom:0;
+  margin-bottom:4em;
 }
 
 .card-blog .card-title {
@@ -592,7 +596,7 @@ border-radius: 50%;
 
 footer {
   text-align: center;
-  color: rgba(255, 255, 255, 0.699);
+  color: #fff;
   padding-bottom: 4rem;
 }
 
@@ -605,7 +609,48 @@ footer .credits {
 }
 
 footer .credits a {
-  color: rgba(255, 255, 255, 0.836);
+  color: #fff;
+}
+
+.button {
+  display: inline-block;
+  padding: .3rem .6rem;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-size: 1rem;
+  border-radius: .3rem;
+  border: 1px solid transparent;
+  transition: all 500ms ease;
+  cursor: pointer;
+}
+
+.button:focus {
+  outline: 0;
+}
+
+.button:hover {
+  background-color: #db4a10;
+  color: #fff;
+  transition: all 500ms ease;
+}
+
+.button-a {
+  background-color: #f0642d;
+  color: #fff;
+  border-color: #faded3;
+}
+
+.button-big {
+  padding: .9rem 2.3rem;
+  font-size: 1.2rem;
+}
+
+.button-rouded {
+  border-radius: 5rem;
 }
 
 .btn-lg {
