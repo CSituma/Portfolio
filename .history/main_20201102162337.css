@@ -18,7 +18,6 @@ html {
   color: #e7e7e7;
   background: rgb(19, 19, 19);
   max-width: 100%;
-  margin: 0;
 }
 body, .container{
   max-width: 100%;
@@ -58,7 +57,7 @@ img {
 /* header */
 
 header {
-  max-width: 100%;
+  width: 100%;
   height: 5rem;
   position: absolute;
   top: 0;
@@ -101,10 +100,7 @@ nav {
   width: 50px;
 
 }
-.menu{
-  max-width: 100%;
 
-}
 .line3 {
   width: 10px;
   
@@ -112,7 +108,6 @@ nav {
 
 .burger-menu-icon {
   cursor: pointer;
-  max-width: 100%;
   z-index: 999;
   position: fixed;
   right: 0;
@@ -277,7 +272,7 @@ nav {
 
 .btn, .btn2 {
   margin: 0 9px;
-  border-radius: 0.8rem;
+  border-radius: 0.5rem;
   color: #fafafa;
   padding: 2rem 2.5rem;
   display: inline-block;
@@ -835,7 +830,7 @@ align-content: center;
 justify-content: center;
 padding: 6em;
 height:100%;
-width:70%;
+width: 100%;
 }
 .social{
   width:30%;
@@ -988,10 +983,11 @@ footer a {
 
   .services-tiers {
     gap: 0;
-    align-self: center;
-   max-width: 100%;
   }
 
+  .services .container{
+    max-width: 100%;
+  }
   .project-item {
     flex-direction: column;
     align-items: flex-start;
@@ -1015,9 +1011,7 @@ footer a {
       padding:0;
     }
 
-.Mail-home h2{
-  font-size:1.2rem ;
-}
+
   .main-message {
     top: 55%;
   }
@@ -1036,7 +1030,8 @@ footer a {
     line-height: 4rem;
   }
   .btn, .btn2 {
-    padding: 0.9rem;
+    border-radius: 0.9rem;
+    padding: 0.9rem 0.9rem;
     font-size: 1.2rem;
   }
   .btn:hover,.btn2:hover{

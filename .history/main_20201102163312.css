@@ -835,7 +835,7 @@ align-content: center;
 justify-content: center;
 padding: 6em;
 height:100%;
-width:70%;
+width: 100%;
 }
 .social{
   width:30%;
@@ -988,10 +988,11 @@ footer a {
 
   .services-tiers {
     gap: 0;
-    align-self: center;
-   max-width: 100%;
   }
 
+  .services .container{
+    max-width: 100%;
+  }
   .project-item {
     flex-direction: column;
     align-items: flex-start;
@@ -1015,9 +1016,7 @@ footer a {
       padding:0;
     }
 
-.Mail-home h2{
-  font-size:1.2rem ;
-}
+
   .main-message {
     top: 55%;
   }
