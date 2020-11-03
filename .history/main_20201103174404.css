@@ -457,7 +457,7 @@ width:30%;}
 
 .project-img {
   flex: 1;
-  filter: drop-shadow(2px 4px 8px rgba(0, 255, 255, 0.171));
+  filter: drop-shadow(2px 4px 2px rgba(0, 255, 255, 0.171));
 }
 #not{
   filter: none;
