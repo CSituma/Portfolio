@@ -898,7 +898,7 @@ footer {
   margin: 0 auto;
   padding: 2.5rem;
   color: #8a8a8a;
-  background-color: rgba(0, 0, 0, 0.425);
+  background-color: black;
   text-align: center;
   font-size: 1.2rem;
   display: flex;
@@ -1046,12 +1046,7 @@ footer a {
  }
  .social{
    width: 100%;
-   display:flex;
-   flex-wrap: wrap;
-   margin:2rem;
- }
- .social h2{
-   margin:0.6rem;
+   display:flex
  }
   footer,
   footer p {

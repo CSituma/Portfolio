@@ -776,6 +776,7 @@ text-shadow:
              -2px -0.5px 2px rgb(10, 10, 10);
 font-weight: 900;
 margin-bottom: 2em;
+font-size:2rem;
 }
 
 .Mail-home {
@@ -898,7 +899,7 @@ footer {
   margin: 0 auto;
   padding: 2.5rem;
   color: #8a8a8a;
-  background-color: rgba(0, 0, 0, 0.425);
+  background-color: black;
   text-align: center;
   font-size: 1.2rem;
   display: flex;
@@ -982,7 +983,7 @@ footer a {
     }
 
 .Mail-home h2{
-  font-size:1.6rem ;
+  font-size:1.2rem ;
 }
   .main-message {
     top: 55%;
@@ -1041,17 +1042,8 @@ footer a {
  .contact-wrapper{
    flex-direction: column;
  }
- .Mail-home{
-   width:100%;
- }
- .social{
-   width: 100%;
-   display:flex;
-   flex-wrap: wrap;
-   margin:2rem;
- }
- .social h2{
-   margin:0.6rem;
+ #call{
+   font-size: 1.4rem;
  }
   footer,
   footer p {
