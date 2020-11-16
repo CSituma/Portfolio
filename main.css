@@ -374,6 +374,7 @@ width:30%;}
   max-width: 90rem;
   max-width: 100%;
   margin:5em;
+    margin-left:10rem;
 }
 
 .title-heading {
@@ -770,6 +771,7 @@ justify-content: center;
 width: 100%;
 display: flex;
 margin:0;
+    margin-left:10rem;
 }
 
 .Mail-home h2 {
