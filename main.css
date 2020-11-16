@@ -941,6 +941,13 @@ margin-top:0.5rem;}
   .contact-wrapper{
   margin-left:0;}
 }
+ .about{
+     margin:0;
+}
+  .about .container {
+  margin: 0;
+  margin-left:3rem;
+  }
 @media (max-width: 750px) {
 
 
@@ -953,12 +960,9 @@ margin-top:0.5rem;}
     width: 90px;
     margin:2rem;
   }
-   .about{
-     margin:0;
-}
+
   .about .container {
-  margin: 0;
-  margin-left:0;
+  margin-left:2rem;
   }
   .about-text-box{
     margin:1rem;
