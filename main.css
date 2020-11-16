@@ -936,7 +936,11 @@ margin-top:0.5rem;}
   .tier-item
   {width:80%;
     margin:2rem 0;
-} }
+}
+
+  .contact-wrapper{
+  margin-left:0;}
+}
 @media (max-width: 750px) {
 
 
