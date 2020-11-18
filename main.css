@@ -322,7 +322,7 @@ nav {
 }
 
 .about .container {
-  margin-left: 10rem;
+  margin-left: 10em;
   align-items: center;
   max-width:100% ;
   margin-bottom: 10rem;
@@ -374,6 +374,7 @@ width:30%;}
   max-width: 90rem;
   max-width: 100%;
   margin:5em;
+    margin-left:10rem;
 }
 
 .title-heading {
@@ -770,6 +771,7 @@ justify-content: center;
 width: 100%;
 display: flex;
 margin:0;
+    margin-left:10rem;
 }
 
 .Mail-home h2 {
@@ -921,6 +923,11 @@ footer a {
   font-size: 2rem;
 }
 
+
+/*Forgotten */
+.btn nav-link{
+
+margin-top:0.5rem;}
 /* Responsive Design */
 
 
@@ -929,7 +936,18 @@ footer a {
   .tier-item
   {width:80%;
     margin:2rem 0;
-} }
+}
+
+  .contact-wrapper{
+  margin-left:0;}
+}
+ .about{
+     margin:0;
+}
+  .about .container {
+  margin: 0;
+  margin-left:3rem;
+  }
 @media (max-width: 750px) {
 
 
@@ -942,8 +960,9 @@ footer a {
     width: 90px;
     margin:2rem;
   }
+
   .about .container {
-  margin: 0;
+  margin-left:2rem;
   }
   .about-text-box{
     margin:1rem;
