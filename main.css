@@ -319,10 +319,12 @@ nav {
   text-align:start;
   align-items: center;
   margin:5em;
+  margin-left:20em;
+   
 }
 
 .about .container {
-  margin-left: 30em;
+  margin-left: 10rem;
   align-items: center;
   max-width:100% ;
   margin-bottom: 10rem;
