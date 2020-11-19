@@ -728,7 +728,9 @@ background-color:rgba(218, 165, 32, 0.767);
   width:90rem;
   padding-top: 5rem;
 }
-
+#contact .title-heading {
+  margin-left:5rem;
+}
 .contact h2 {
   text-align: center;
   font-size: 2.5rem;
