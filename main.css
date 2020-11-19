@@ -320,15 +320,16 @@ nav {
   align-items: center;
   margin:5em;
   margin-left:20em;
-  margin-top:20em;
+
    
 }
 
 .about .container {
+   margin-top:20em;
    margin:3rem;
   align-items: center;
   max-width:100% ;
-  margin-bottom: 10rem;
+  margin-bottom: 15rem;
 }
 
 .about-img img {
