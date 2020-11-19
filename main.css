@@ -320,8 +320,6 @@ nav {
   text-align:start;
   align-items: center;
   margin:10em;
-  margin-left:20em;
-  margin-top:20em;
    
 }
 
@@ -345,6 +343,7 @@ nav {
 .about-text-box {
   margin-left:10em;
   margin-top:10em;
+  margin-bottom:10em;
   max-width: 100%;
 }
 
@@ -1008,6 +1007,8 @@ margin-top:0.5rem;}
     .about-text-box{
       text-align:start;
       margin:1rem;
+       margin-top:5em;
+       margin-bottom:5em;
       padding:0;
     }
 
