@@ -577,6 +577,8 @@ border-radius: 50%;
   color: goldenrod;
   font-size: 2rem;
 }
+#blog .title-heading {
+  margin-top:10em;}
 /*======================================
 //--//-->   CONTACT
 ======================================*/
@@ -738,6 +740,7 @@ background-color:rgba(218, 165, 32, 0.767);
   font-size: 1.4rem;
   padding: 0;
   margin: 0.9rem 2rem;
+
 }
 
 .contact .container {
