@@ -344,7 +344,7 @@ nav {
 
 .about-text-box {
   margin-left:10em;
-  margin-top:30em;
+  margin-top:10em;
   max-width: 100%;
 }
 
@@ -973,6 +973,8 @@ margin-top:0.5rem;}
   }
   .about-text-box{
     margin:1rem;
+    margin-top:5em;
+     margin-bottom:5em;
     padding:0;
   }
   p {
