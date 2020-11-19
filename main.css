@@ -208,6 +208,7 @@ nav {
     url("./images/clement-h-95YRwf6CNw8-unsplash.jpg") center/cover no-repeat;
  
   position: relative;
+  margin-bottom:2em;
 }
 
 .main-message {
@@ -343,6 +344,7 @@ nav {
 
 .about-text-box {
   margin-left:10em;
+  margin-top:30em;
   max-width: 100%;
 }
 
