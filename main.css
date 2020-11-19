@@ -324,7 +324,6 @@ nav {
 }
 
 .about .container {
-  margin-left: 10rem;
   align-items: center;
   max-width:100% ;
   margin-bottom: 10rem;
@@ -335,6 +334,7 @@ nav {
   width: auto;
   border-radius: 50%;
   margin:3rem;
+  margin:10rem;
   box-shadow:  -5px 5px 4px black;
 }
 
