@@ -285,6 +285,7 @@ nav {
   padding: 2rem 2.5rem;
   display: inline-block;
   margin-top: 4rem;
+  margin-left:0;
   transition: background-color 650ms;
   font-size: 1.5rem;
   font-weight: 700;
