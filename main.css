@@ -17,6 +17,10 @@ position: relative;
   padding: 2em;
   background-color:white;
 }
+#load img {
+align-items:center;
+  margin:50px;
+}
 html {
   font-family: "Share Tech Mono", monospace;
   font-size: 12px;
