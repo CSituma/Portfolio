@@ -21,6 +21,7 @@ position: relative;
 align-items:center;
   justify-content:center;
   margin:200px;
+  margin-left:500px;
 }
 html {
   font-family: "Share Tech Mono", monospace;
