@@ -15,7 +15,7 @@
   <body>
     	<div id ="load" class="loader"> 
     <img src="./images/spinner.gif"></div>
-    <div class="container">
+    <div class="container" id="coco">
     <header>
       <div class="container">
         <nav>
@@ -396,6 +396,14 @@
       </footer>
     </main>
   </div>
+      <script>
+      $('#coco').hide();
+    setTimeout(() => {
+       $('#load').hide();
+    }, 5000);
+       $(document).ready( () => {
+$('#coco').show();}
+      </script>
   <script
   src="https://kit.fontawesome.com/836a943e18.js"
   crossorigin="anonymous"
@@ -407,16 +415,5 @@
     AOS.init();
   </script>
   <script src="https://code.jquery.com/jquery-3.1.0.min.js"> </script>
-      <script>
-      $('.container').hide();
-
-    setTimeout(() => {
-
-       $('#load').hide();
-     
-
-    }, 5000);
-        $('.container').show();
-      </script>
   </body>
 </html>
