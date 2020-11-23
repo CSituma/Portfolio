@@ -19,7 +19,8 @@ position: relative;
 }
 #load img {
 align-items:center;
-  margin:50px;
+  justify-content:center;
+  margin:200px;
 }
 html {
   font-family: "Share Tech Mono", monospace;
@@ -969,7 +970,8 @@ margin-top:0.5rem;}
   }
 @media (max-width: 750px) {
 
-
+   #load img {
+     margin:20px;}
   .main-message h3 {
     font-size: 3rem;
   }
