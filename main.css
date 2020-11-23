@@ -10,7 +10,7 @@
   box-sizing: inherit;
 }
 
-.load{
+#load{
 position: relative;
   height: 100vh;
   z-index: 30;
