@@ -1,11 +1,5 @@
 // Function expression to select elements `
 
-$('#coco').hide();
-    setTimeout(() => {
-       $('#load').hide();
-    }, 5000);
-$('#coco').show();
-
 const selectElement = (s) => document.querySelector(s);
 const navLinks = document.querySelectorAll(".nav-link");
 
