@@ -10,19 +10,7 @@
   box-sizing: inherit;
 }
 
-#load{
-position: relative;
-  height: 100vh;
-  z-index: 30;
-  padding: 2em;
-  background-color:white;
-}
-#load img {
-align-items:center;
-  justify-content:center;
-  margin:200px;
-  margin-left:500px;
-}
+
 html {
   font-family: "Share Tech Mono", monospace;
   font-size: 12px;
@@ -253,7 +241,7 @@ nav {
     color:goldenrod;
   }
   100% {
-    width: 40ch;
+    width:30ch;
   }
 }
 
