@@ -241,7 +241,7 @@ nav {
   font-weight: 400;
   overflow: hidden;
   white-space: nowrap;
-  animation: typing 5s steps(60), blink 1s ease-in-out 60s infinite;
+  animation: typing 5s steps(27),blink 1s ease-in-out 7s infinite;
   width: 27ch;
   margin: auto;
   border-right: 4px solid rgba(255, 255, 255, 1);
@@ -253,7 +253,7 @@ nav {
     color:goldenrod;
   }
   100% {
-    width: 27ch;
+    width: 40ch;
   }
 }
 
