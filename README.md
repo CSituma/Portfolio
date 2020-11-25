@@ -4,7 +4,7 @@ A portfolio site using HTML,CSS and JavaScript
 </br>
 **MIT License Copyright (c) Clara Situma.**
 
- #Credit#
+ ***Credit***
  <br>
 Inspired by Charles Chaoo's Portfolio https://github.com/chaoocharles/portfolio-website
 
