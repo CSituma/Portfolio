@@ -1,4 +1,5 @@
 A portfolio site using HTML,CSS and JavaScript
+![claragithub](https://github.com/CSituma/Portfolio/blob/main/images/ezgif.com-gif-maker%20(6).gif)
 
 *license*
 </br>
