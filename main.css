@@ -508,6 +508,7 @@ width:30%;}
 }
 .card-blog{
   margin:0 2rem;
+  width:30%;
 }
 @media(max-width:767px){
 .card-blog .card-body {
