@@ -633,7 +633,7 @@ footer .credits a {
     margin-top: 3rem;
     padding-left: 0rem;
   }
-
+  
   .card-blog {
     margin-bottom: 3rem;
   }
@@ -694,6 +694,7 @@ footer .credits a {
  
   .cards-wrapper{
     flex-direction: column;
+    
   }
 }
 
@@ -971,7 +972,8 @@ margin-top:0.5rem;}
     width: 90px;
     margin:2rem;
   }
-
+  .card-blog {
+    width:100%;}
   .about .container {
   margin-left:2rem;
   }
