@@ -10,6 +10,7 @@
   box-sizing: inherit;
 }
 
+
 html {
   font-family: "Share Tech Mono", monospace;
   font-size: 12px;
@@ -208,11 +209,12 @@ nav {
     url("./images/clement-h-95YRwf6CNw8-unsplash.jpg") center/cover no-repeat;
  
   position: relative;
+  margin-bottom:2em;
 }
 
 .main-message {
   width: 100%;
-  max-width: 58rem;
+  max-width: 60rem;
   text-transform: uppercase;
   position: absolute;
   left: 50%;
@@ -227,7 +229,7 @@ nav {
   font-weight: 400;
   overflow: hidden;
   white-space: nowrap;
-  animation: typing 5s steps(27), blink 1s ease-in-out 7s infinite;
+  animation: typing 5s steps(27),blink 1s ease-in-out 7s infinite;
   width: 27ch;
   margin: auto;
   border-right: 4px solid rgba(255, 255, 255, 1);
@@ -239,7 +241,7 @@ nav {
     color:goldenrod;
   }
   100% {
-    width: 27ch;
+    width:30ch;
   }
 }
 
@@ -278,7 +280,7 @@ nav {
 }
 
 .btn, .btn2 {
-  margin: 0 0.9rem;
+  margin: 0 0.6rem;
   border-radius: 0.8rem;
   color: #fafafa;
   padding: 2rem 2.5rem;
@@ -318,14 +320,16 @@ nav {
   max-width:100% ;
   text-align:start;
   align-items: center;
-  margin:5em;
+  margin:10em;
+   
 }
 
 .about .container {
-  margin-left: 10em;
+   margin:3rem;
   align-items: center;
   max-width:100% ;
-  margin-bottom: 10rem;
+  margin-bottom: 15rem;  
+  margin-top:20rem;
 }
 
 .about-img img {
@@ -333,11 +337,14 @@ nav {
   width: auto;
   border-radius: 50%;
   margin:3rem;
+  margin-left:20em;
   box-shadow:  -5px 5px 4px black;
 }
 
 .about-text-box {
   margin-left:10em;
+  margin-top:10em;
+  margin-bottom:10em;
   max-width: 100%;
 }
 
@@ -374,7 +381,7 @@ width:30%;}
   max-width: 90rem;
   max-width: 100%;
   margin:5em;
-    margin-left:10rem;
+  margin-left:7rem;
 }
 
 .title-heading {
@@ -410,7 +417,7 @@ width:30%;}
   box-shadow: -8px 8px 15px rgba(0, 0, 0, 0.548);
   border-radius:4px;
   margin:0;
-  margin-right: 1rem;
+  margin-right:3rem;
   box-sizing: border-box;
   overflow: hidden; }
 
@@ -443,7 +450,6 @@ width:30%;}
   min-height: 100vh;
   max-width: 90rem;
   margin: auto;
-
 }
 .has-margin-right {
   margin: 0 3rem 0 0;
@@ -502,6 +508,7 @@ width:30%;}
 }
 .card-blog{
   margin:0 2rem;
+  width:45%;
 }
 @media(max-width:767px){
 .card-blog .card-body {
@@ -572,6 +579,8 @@ border-radius: 50%;
   color: goldenrod;
   font-size: 2rem;
 }
+#blog .title-heading {
+  margin-top:10em;}
 /*======================================
 //--//-->   CONTACT
 ======================================*/
@@ -624,7 +633,7 @@ footer .credits a {
     margin-top: 3rem;
     padding-left: 0rem;
   }
-
+  
   .card-blog {
     margin-bottom: 3rem;
   }
@@ -685,6 +694,7 @@ footer .credits a {
  
   .cards-wrapper{
     flex-direction: column;
+    
   }
 }
 
@@ -733,6 +743,7 @@ background-color:rgba(218, 165, 32, 0.767);
   font-size: 1.4rem;
   padding: 0;
   margin: 0.9rem 2rem;
+
 }
 
 .contact .container {
@@ -771,7 +782,7 @@ justify-content: center;
 width: 100%;
 display: flex;
 margin:0;
-    margin-left:10rem;
+ margin-left:5rem;
 }
 
 .Mail-home h2 {
@@ -950,7 +961,8 @@ margin-top:0.5rem;}
   }
 @media (max-width: 750px) {
 
-
+   #load img {
+     margin:20px;}
   .main-message h3 {
     font-size: 3rem;
   }
@@ -960,12 +972,17 @@ margin-top:0.5rem;}
     width: 90px;
     margin:2rem;
   }
-
+  .card-blog {
+    width:90%;}
+  
+  
   .about .container {
   margin-left:2rem;
   }
   .about-text-box{
     margin:1rem;
+    margin-top:5em;
+     margin-bottom:5em;
     padding:0;
   }
   p {
@@ -999,6 +1016,8 @@ margin-top:0.5rem;}
     .about-text-box{
       text-align:start;
       margin:1rem;
+       margin-top:5em;
+       margin-bottom:5em;
       padding:0;
     }
 
