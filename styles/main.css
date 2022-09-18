@@ -436,8 +436,7 @@ nav {
   display: flex;
   align-items: center;
   padding-top: 10rem;
-  justify-content: center;
-  margin: 0 1.45rem 5rem 1.45rem; }
+  justify-content: center; }
 
 .project-img {
   flex: 1;
