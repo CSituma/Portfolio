@@ -361,6 +361,10 @@ nav {
   width: 400px;
   height: 200px; }
 
+@media (max-width: 540px) {
+  .sceneContainer {
+    display: none; } }
+
 .carousel {
   height: 100%;
   width: 100%;

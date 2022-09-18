@@ -451,6 +451,12 @@ width:30%;}
   width: 400px;
   height: 200px;
 }
+
+.sceneContainer{
+  @media(max-width:540px){
+    display: none;
+    }
+}
 .carousel {
   height: 100%;
   width: 100%;
