@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "An openSource developer  Portfolio",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:scss": "node-sass -w styles/main.scss styles/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CSituma/Portfolio.git"
+  },
+  "author": "Clara Situma",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CSituma/Portfolio/issues"
+  },
+  "homepage": "https://github.com/CSituma/Portfolio#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
